@@ -37,13 +37,6 @@ if (requireNamespace("rnaturalearthhires")) {
   spdf_france_country <- ne_states(country = "france")
   spdf_france_geounit <- ne_states(geounit = "france")
 
-  if (require(sp)) {
-    plot(spdf_france_country)
-    plot(spdf_france_geounit)
-
-    plot(ne_states(country = "united kingdom"))
-    plot(ne_states(geounit = "england"))
-  }
 }
 
 }

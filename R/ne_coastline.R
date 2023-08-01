@@ -11,9 +11,6 @@
 #' if (requireNamespace("rnaturalearthdata")) {
 #'   sldf_coast <- ne_coastline()
 #'
-#'   if (require(sp)) {
-#'     plot(sldf_coast)
-#'   }
 #' }
 #'
 #' @return \code{SpatialLinesDataFrame} or \code{sf}

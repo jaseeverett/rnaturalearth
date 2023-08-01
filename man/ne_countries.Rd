@@ -45,11 +45,6 @@ spdf_world <- ne_countries()
 spdf_africa <- ne_countries(continent = "africa")
 spdf_france <- ne_countries(country = "france")
 
-if (require(sp)) {
-  plot(spdf_world)
-  plot(spdf_africa)
-  plot(spdf_france)
-}
 
 # get as sf
 if (require(sf)) {
@@ -57,9 +52,5 @@ if (require(sf)) {
   plot(sf_world)
 }
 
-if (require(rnaturalearthdata) & require(sp)) {
-  spdf_tiny_countries <- ne_countries(type = "tiny_countries", scale = 50)
-  plot(spdf_tiny_countries)
-}
 
 }

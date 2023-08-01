@@ -22,9 +22,6 @@ returns world coastline at specified scale
 if (requireNamespace("rnaturalearthdata")) {
   sldf_coast <- ne_coastline()
 
-  if (require(sp)) {
-    plot(sldf_coast)
-  }
 }
 
 }

@@ -52,10 +52,6 @@
 #' @examples \dontrun{
 #' spdf_world <- ne_download(scale = 110, type = "countries")
 #'
-#' if (require(sp)) {
-#'   plot(spdf_world)
-#'   plot(ne_download(type = "populated_places"))
-#' }
 #'
 #' # reloading from the saved file in the same session with same arguments
 #'
