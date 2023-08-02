@@ -54,6 +54,8 @@ Suggests:
     tmap,
     lifecycle (>= 1.0.3),
     rlang
+Remotes:
+    jaseeverett/rnaturalearthdata
 Config/Needs/website: ropensci/rnaturalearthhires
 VignetteBuilder: knitr
 RoxygenNote: 7.2.3
