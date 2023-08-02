@@ -57,6 +57,6 @@ Suggests:
 Remotes:
     jaseeverett/rnaturalearthdata,
     jaseeverett/rnaturalearthhires
-Config/Needs/website: ropensci/rnaturalearthhires
+Config/Needs/website: jaseeverett/rnaturalearthhires
 VignetteBuilder: knitr
 RoxygenNote: 7.2.3
