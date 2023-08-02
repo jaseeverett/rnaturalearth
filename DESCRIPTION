@@ -55,7 +55,7 @@ Suggests:
     lifecycle (>= 1.0.3),
     rlang
 Remotes:
-    jaseeverett/rnaturalearthdata
+    jaseeverett/rnaturalearthdata,
     jaseeverett/rnaturalearthhires
 Config/Needs/website: ropensci/rnaturalearthhires
 VignetteBuilder: knitr
